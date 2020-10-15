@@ -1,0 +1,34 @@
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            1000:{
+                items:2,
+                nav:true,
+                loop:true
+            },
+            1200:{
+                items:3,
+                nav:true,
+                loop:true
+            },
+            2000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+  });
